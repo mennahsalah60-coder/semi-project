@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+.one {
+    background-image: url(../images/navbar.png);
+    background-color: black;
+    background-size: cover;
+    height: 100svh;
+    background-position: center;
+
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    div .button button {
+        height: 55px;
+        background-color: #FF3C8A;
+    }
+
+    .content {
+        padding: 100px 0px;
+
+        h1 {
+            font-size: 90px;
+        }
+
+        button {
+            height: 55px;
+            background-color: #FF3C8A;
+            border: 1px solid #FF3C8A;
+        }
+    }
+}
+
+/* -------------------------- */
+
+.two {
+    margin-top: 200px;
+
+    .all {
+        div {
+            h1 {
+                color: #3C89D2;
+            }
+        }
+    }
+
+    .welcome {
+        height: 100%;
+
+        h1 {
+            font-size: 70px;
+            margin-bottom: 40px;
+            width: 90%;
+        }
+
+        p {
+            width: 80%;
+            padding-bottom: 100px;
+        }
+
+        button {
+            background-color: #FF3C8A;
+            border: 1px solid #FF3C8A;
+        }
+    }
+
+    .image {
+        background-color: #EB4E89;
+        border-radius: 50% 50% 20% 20% !important;
+        height: 68svh !important;
+
+
+        img {
+            margin-left: 40px;
+            margin-right: 40px;
+            margin-top: 170px !important;
+            width: 60% !important;
+
+        }
+    }
+
+    .missions {
+        margin-left: 40px;
+
+        .mission {
+            height: 40svh;
+            padding-top: 40px;
+
+            .our {
+                font-size: 60px;
+                margin-bottom: 40px;
+            }
+
+        }
+
+        .achives {
+            h1 {
+                margin-left: 30px;
+            }
+        }
+
+    }
+}
+
+.three {
+    margin-top: 150px;
+
+    h1 {
+        color: #3C89D2;
+        margin-bottom: 50px;
+    }
+
+    .offers .offer {
+        padding-top: 50px;
+        border: 1px solid #fafafa;
+        background-color: #f9f3f3;
+        height: 40svh;
+    }
+
+    .but {
+        margin-bottom: 100px;
+
+        button {
+            background-color: #EB4E89;
+            height: 6svh;
+        }
+    }
+}
+
+
+/* ---------- */
+@media screen and (max-width: 1200px) {
+    .one .content h1 {
+        font-size: 50px;
+        width: 47% !important;
+    }
+
+    .one .content {
+        padding-top: 15px;
+    }
+
+    .two .all {
+        margin-top: -80px;
+
+        .welcome {
+            h1 {
+                font-size: 40px;
+            }
+
+            p {
+                width: 90%;
+                font-size: 30px;
+            }
+        }
+
+        .image {
+            height: 60svh !important;
+
+            img {
+                margin-top: 115px !important;
+
+            }
+        }
+
+        .missions {
+            width: 80%;
+
+            .mission {
+                h1 {
+                    font-size: 60px;
+                }
+
+                p {
+                    margin-top: -30px;
+                    font-size: 20px !important;
+                }
+            }
+
+            .achives {
+                .achive {
+                    h1 {
+                        font-size: 30px;
+                    }
+
+                    p {
+                        font-size: 18px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .one .content h1 {
+        width: 80% !important;
+    }
+
+    .two .all {
+        .image {
+            margin-top: 50px;
+            width: 100%;
+            height: 55svh;
+            border-radius: 0;
+            text-align: center;
+
+            img {
+                margin-top: 64px;
+                width: 40%;
+                height: 45svh;
+            }
+        }
+    }
+
+    .two .welcome p {
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .one {
+        .button button {
+            display: none;
+        }
+
+        .top .links {
+            margin-inline: auto;
+        }
+
+        .top .main {
+            margin-top: 20px;
+            margin-inline: auto;
+
+            a {
+                font-size: 30px;
+                text-decoration: underline;
+            }
+        }
+
+        .content h1 {
+            font-size: 30px !important;
+            width: 70% !important;
+            margin-left: 30px;
+            margin-top: 50px;
+        }
+
+        .content p {
+            font-size: 20px !important;
+            width: 70% !important;
+            margin-left: 30px;
+        }
+
+        .content button {
+            width: 40% !important;
+            margin-left: 30px;
+        }
+    }
+
+    .two {
+        .all {
+            display: grid !important;
+            grid-template-columns: 1fr;
+        }
+
+        .image {
+            margin-top: 50px;
+            margin-left: 20px;
+            margin-right: 10px;
+            width: 90%;
+            border-radius: 30px !important;
+            margin-bottom: 30px;
+
+            img {
+                height: 45svh;
+                width: 40% !important;
+                margin-left: 30%;
+            }
+        }
+
+        .welcome {
+            margin-top: -80px;
+
+            h1 {
+                width: 100%;
+                font-size: 40px;
+            }
+
+            p {
+                padding-bottom: 15px;
+            }
+        }
+
+        .missions {
+            margin: 0;
+            margin-inline: auto;
+            margin-top: -30px;
+
+            .mission {
+                h1 {
+                    font-size: 40px !important;
+                }
+            }
+
+            .achives {
+                margin-top: 50px;
+                display: grid !important;
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    }
+
+    .three {
+        h1 {
+            margin-left: 35px;
+            margin-right: 35px;
+
+        }
+
+
+        .offers {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+        button{
+            width: 50% !important;
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .one {
+        .top {
+            .links {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+
+        .content {
+            h1 {
+                font-size: 25px !important;
+            }
+
+            p {
+                font-size: 15px !important;
+            }
+
+            button {
+                width: 100%;
+                font-size: 12px !important;
+                height: 15%;
+            }
+        }
+    }
+
+}
