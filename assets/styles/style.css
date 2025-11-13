@@ -9,12 +9,13 @@
     background-image: url(../images/navbar.png);
     background-color: black;
     background-size: cover;
-    /* min-height: 100px; */
+    /* min-height: 600%; */
     background-position: center;
+    position: relative;
 
     .overlay {
         background-color: rgba(0, 0, 0, 0.8);
-        min-height: 78%;
+        min-height: 100%;
     }
 
     div .button button {
@@ -138,11 +139,7 @@
 /* ---------- */
 @media screen and (max-width: 1440px) {
     .one {
-        min-height: 78svh;
-
-        .overlay{
-            height: 0% !important;
-        }
+        /* min-height: 78svh; */
 
         a {
             font-size: 35px;
@@ -339,7 +336,7 @@
         .content h1 {
             font-size: 35px !important;
             width: 86% !important;
-            margin-top: 100px;
+        
         }
 
         .content p {
@@ -449,7 +446,7 @@
         }
 
         .content {
-            margin-top: -80px;
+            /* margin-top: -80px; */
             h1 {
                 margin-top: 0;
                 font-size: 28px !important;
