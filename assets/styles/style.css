@@ -99,7 +99,6 @@
     .offers .offer {
         border: 1px solid #fafafa;
         background-color: #f9f3f3;
-        height: 30svh;
     }
 
     .but {
@@ -169,9 +168,9 @@
     }
 
     .three {
-        .offers .offer {
+        /* .offers .offer {
             height: 23svh;
-        }
+        } */
 
         .but button {
             font-size: 35px;
@@ -276,7 +275,7 @@
     }
 
     .three .offers .offer {
-        height: 25svh;
+        /* height: 25svh; */
 
         h3{
             margin-top: 20px;
@@ -411,10 +410,6 @@
             grid-template-columns: 1fr;
             margin-left: 10px;
             margin-right: 10px;
-
-            .offer{
-                height: 20svh;
-            }
         }
 
         button {
