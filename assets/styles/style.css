@@ -467,7 +467,7 @@
             button {
                 margin: 0;
                 font-size: 20px !important;
-                max-height: 40px !important; 
+                height: 10% !important; 
             }
         }
 
