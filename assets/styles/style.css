@@ -9,7 +9,6 @@
     background-image: url(../images/navbar.png);
     background-color: black;
     background-size: cover;
-    /* min-height: 600%; */
     background-position: center;
     position: relative;
 
@@ -70,7 +69,6 @@
     .image {
         background-color: #EB4E89;
         border-radius: 50% 50% 20% 20% !important;
-        /* min-height: 70px; */
 
 
         img {
@@ -81,8 +79,6 @@
 
     .missions {
         .mission {
-            /* min-height: 100px; */
-
             .our {
                 font-size: 60px;
             }
@@ -106,7 +102,6 @@
     .but {
         button {
             background-color: #EB4E89;
-            /* height: 6svh; */
             font-size: 20px;
         }
     }
@@ -135,12 +130,38 @@
     }
 }
 
+.five {
+    margin-top: 100px;
+
+    h1 {
+        color: #3C89D2;
+    }
+
+    .names {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .name {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            background-color: #fff7f7;
+
+            h3 {
+                width: 170%;
+            }
+
+            p {
+                width: 149%;
+            }
+        }
+    }
+}
+
 
 /* ---------- */
 @media screen and (max-width: 1440px) {
     .one {
-        /* min-height: 78svh; */
-
         a {
             font-size: 35px;
         }
@@ -153,10 +174,6 @@
     }
 
     .two {
-        /* .achives{
-            margin-top: 50px;
-        } */
-
         .image {
             height: 40svh;
 
@@ -164,17 +181,9 @@
                 margin-top: 70px;
             }
         }
-
-        /* .achives {
-            margin-top: -100px !important;
-        } */
     }
 
     .three {
-        /* .offers .offer {
-            height: 23svh;
-        } */
-
         .but button {
             font-size: 35px;
         }
@@ -206,7 +215,7 @@
         }
 
         .image {
-            height: 30% ;
+            height: 30%;
 
             img {
                 margin-top: 110px !important;
@@ -230,8 +239,6 @@
             }
 
             .achives {
-                /* margin-top: -150px !important; */
-
                 .achive {
                     h1 {
                         font-size: 30px;
@@ -245,21 +252,21 @@
         }
     }
 
-    .four{
-        .courses .course img{
+    .four {
+        .courses .course img {
             height: 200px !important;
         }
     }
 }
 
 @media (max-width: 768px) {
-        .top .button{
-            margin-inline: auto;
-        }
+    .top .button {
+        margin-inline: auto;
+    }
 
-        .content button{
-            font-size: 20px;
-        }
+    .content button {
+        font-size: 20px;
+    }
 
     .two .all {
         width: 100%;
@@ -284,9 +291,7 @@
     }
 
     .three .offers .offer {
-        /* height: 25svh; */
-
-        h3{
+        h3 {
             margin-top: 20px;
         }
     }
@@ -294,7 +299,6 @@
     .but button {
         font-size: 30px !important;
         width: 40% !important;
-        /* min-height: 10px !important; */
     }
 
     .four {
@@ -307,7 +311,6 @@
                 width: 100%;
 
                 img {
-                    /* min-height: 15px !important; */
                     margin-bottom: 10px;
                 }
 
@@ -325,7 +328,7 @@
             display: none;
         }
 
-        .top{
+        .top {
             margin-inline: auto;
         }
 
@@ -346,7 +349,7 @@
         .content h1 {
             font-size: 35px !important;
             width: 86% !important;
-        
+
         }
 
         .content p {
@@ -428,59 +431,76 @@
         }
     }
 
-    .four{
-        .courses{
+    .four {
+        .courses {
             display: grid;
             grid-template-columns: 1fr;
-            /* margin-inline: auto; */
+        }
+    }
+
+    .five {
+        .names {
+            display: grid;
+            grid-template-columns: 1fr;
+
+            .name {
+                margin: 0 !important;
+            }
+
+            .end {
+                margin-left: 40px !important;
+            }
+
+            .start {
+                margin-right: 40px !important;
+            }
         }
     }
 }
 
 @media screen and (max-width: 320px) {
-        .top {
-            .links {
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
+    .top {
+        .links {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
 
-                a{
-                    font-size: 20px!important;
-                }
-            }
-        }
-
-        .top .main a{
-            margin-left: 10px !important;
-        }
-
-        .content {
-            /* margin-top: -80px; */
-            h1 {
-                margin-top: 0;
-                font-size: 28px !important;
-            }
-
-            p {
-                font-size: 18px !important;
-            }
-
-            button {
-                margin: 0;
+            a {
                 font-size: 20px !important;
-                height: 10% !important; 
             }
         }
+    }
+
+    .top .main a {
+        margin-left: 10px !important;
+    }
+
+    .content {
+        h1 {
+            margin-top: 0;
+            font-size: 28px !important;
+        }
+
+        p {
+            font-size: 18px !important;
+        }
+
+        button {
+            margin: 0;
+            font-size: 20px !important;
+            height: 10% !important;
+        }
+    }
 
 
     .two .all {
         margin-inline: auto;
+
         .mission {
             width: 90%;
-            /* height: 25svh; */
             margin-bottom: 40px;
         }
 
-        .achives{
+        .achives {
             display: grid;
             grid-template-columns: 1fr;
             text-align: center;
@@ -488,8 +508,8 @@
 
     }
 
-    .three{
-        .but button{
+    .three {
+        .but button {
             width: 50% !important;
             font-size: 20px !important;
         }
