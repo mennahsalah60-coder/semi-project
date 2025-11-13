@@ -130,7 +130,7 @@
         }
 
         .course img {
-            height: 40svh;
+            height: 200px;
         }
     }
 }
@@ -242,6 +242,12 @@
                     }
                 }
             }
+        }
+    }
+
+    .four{
+        .courses .course img{
+            height: 200px !important;
         }
     }
 }
@@ -414,6 +420,7 @@
 
         button {
             width: 50% !important;
+            font-size: 20px !important;
         }
     }
 
