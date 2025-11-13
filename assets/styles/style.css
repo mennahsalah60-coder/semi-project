@@ -68,11 +68,12 @@
     .image {
         background-color: #EB4E89;
         border-radius: 50% 50% 20% 20% !important;
+        height: 70svh;
 
 
         img {
-            margin-top: 80px !important;
-            width: 60% !important;
+            margin-top: 50px;
+            width: 80% !important;
         }
     }
 
@@ -109,8 +110,85 @@
     }
 }
 
+.four {
+    margin-top: 100px;
+
+    h2 {
+        color: #3C89D2;
+    }
+
+    .courses {
+        /* display: grid !important;
+        grid-template-columns: 1fr 1fr 1fr 1fr; */
+
+        .course {
+            margin-top: 50px;
+            border: 0px;
+
+            a {
+                color: #3C89D2;
+            }
+        }
+
+        .course-th img {
+            width: 100%;
+            height: 26svh;
+            background-position: center;
+        }
+    }
+}
+
 
 /* ---------- */
+@media screen and (max-width: 1440px) {
+    .one {
+        height: 60svh;
+
+        a {
+            font-size: 35px;
+        }
+
+        button {
+            font-size: 30px;
+            height: 70px !important;
+        }
+
+        .overlay {
+            height: 60svh !important;
+        }
+    }
+
+    .two {
+        .image {
+            height: 40svh;
+
+            img {
+                margin-top: 70px;
+            }
+        }
+
+        .achives {
+            margin-top: -100px !important;
+        }
+    }
+
+    .three {
+        .offers .offer {
+            height: 23svh;
+        }
+
+        .but button {
+            font-size: 35px;
+        }
+    }
+
+    .four {
+        .courses .course img {
+            height: 20svh !important;
+        }
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .one .content h1 {
         font-size: 50px;
@@ -130,10 +208,10 @@
         }
 
         .image {
-            height: 50svh !important;
+            height: 30svh !important;
 
             img {
-                margin-top: 52px !important;
+                margin-top: 110px !important;
 
             }
         }
@@ -142,7 +220,7 @@
             width: 80%;
 
             .mission {
-                
+
                 h1 {
                     font-size: 60px;
                 }
@@ -154,7 +232,8 @@
             }
 
             .achives {
-                margin-top: 0 !important;
+                margin-top: -150px !important;
+
                 .achive {
                     h1 {
                         font-size: 30px;
@@ -169,30 +248,76 @@
     }
 }
 
-@media (min-width: 768px) {
-    /* .one .content h1 {
-        width: 80% !important;
-    } */
+@media (max-width: 768px) {
+    .one {
+        height: 60svh;
+
+        .overlay {
+            height: 60svh !important;
+        }
+
+        .top .button{
+            margin-inline: auto;
+        }
+
+        .content button{
+            font-size: 20px;
+        }
+    }
 
     .two .all {
         width: 100%;
+
         .image {
-            margin-top: 50px;
-            /* width: 100%; */
             text-align: center;
 
             img {
-                height: 45svh;
+                margin-top: 43px !important;
             }
         }
     }
 
-    .two .all .missions{
+    .two .all .missions {
         margin: 0;
-        .achives .achive{
-            h1{
+
+        .achives .achive {
+            h1 {
                 font-size: 50px !important;
-                margin-top: -60px !important;
+            }
+        }
+    }
+
+    .three .offers .offer {
+        height: 25svh;
+
+        h3{
+            margin-top: 20px;
+        }
+    }
+
+    .but button {
+        font-size: 30px !important;
+        width: 40% !important;
+        height: 5svh !important;
+    }
+
+    .four {
+        .courses {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            .course {
+                height: 21svh !important;
+                width: 100%;
+
+                img {
+                    height: 15svh !important;
+                    margin-bottom: 15px;
+                }
+
+                a {
+                    font-size: 20px !important;
+                }
             }
         }
     }
@@ -211,7 +336,7 @@
 
         .top .main {
             margin-top: 20px;
-            margin-inline: auto;
+            margin-left: 90px;
 
             a {
                 font-size: 30px;
@@ -248,6 +373,7 @@
 
         .welcome {
             margin-top: -80px;
+
             h1 {
                 width: 100%;
             }
@@ -255,15 +381,17 @@
 
         .missions {
             width: 100% !important;
-            margin-top: 40px;
-            
+            margin-top: 80px !important;
+
 
             .mission {
-                height: 20svh;
+                height: 30svh;
+
                 h1 {
                     font-size: 40px !important;
                 }
-                p{
+
+                p {
                     margin-top: 0 !important;
                 }
             }
@@ -272,7 +400,7 @@
                 display: grid !important;
                 grid-template-columns: 1fr 1fr;
 
-                h1{
+                h1 {
                     font-size: 40px !important;
                 }
             }
@@ -284,6 +412,7 @@
 
     .three {
         margin-top: 50px;
+
         h1 {
             margin-left: 35px;
             margin-right: 35px;
@@ -291,33 +420,59 @@
         }
 
         .offers {
+            display: grid;
+            grid-template-columns: 1fr;
             margin-left: 10px;
             margin-right: 10px;
+
+            .offer{
+                height: 20svh;
+            }
         }
 
-        button{
+        button {
             width: 50% !important;
+        }
+    }
+
+    .four{
+        .courses{
+            display: grid;
+            grid-template-columns: 1fr;
+            /* margin-inline: auto; */
         }
     }
 }
 
 @media screen and (max-width: 320px) {
     .one {
-        height: 80svh;
-        .overlay{
-            height: 80svh !important;
+        height: 50svh;
+
+        .overlay {
+            height: 50svh !important;
         }
+
         .top {
             .links {
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr;
+
+                a{
+                    font-size: 20px!important;
+                }
             }
+        }
+
+        .top .main{
+            margin-left: 40px !important;
+            margin-top: 0;
         }
 
         .content {
             h1 {
                 margin-top: 0;
-                font-size: 25px !important;
+                font-size: 28px !important;
+                margin-bottom: 40px;
             }
 
             p {
@@ -325,16 +480,34 @@
             }
 
             button {
-                height: 15%;
+                margin: 0;
+                font-size: 20px !important;
+                height: 3svh !important; 
             }
         }
     }
 
-    .two .all{
-        .mission{
+    .two .all {
+        margin-inline: auto;
+        .mission {
+            width: 90%;
             height: 25svh;
+            margin-bottom: 40px;
         }
 
+        .achives{
+            display: grid;
+            grid-template-columns: 1fr;
+            text-align: center;
+        }
+
+    }
+
+    .three{
+        .but button{
+            width: 50% !important;
+            font-size: 20px !important;
+        }
     }
 
 }
