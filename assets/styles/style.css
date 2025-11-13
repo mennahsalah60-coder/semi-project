@@ -99,13 +99,14 @@
     .offers .offer {
         border: 1px solid #fafafa;
         background-color: #f9f3f3;
-        height: 35svh;
+        height: 20svh;
     }
 
     .but {
         button {
             background-color: #EB4E89;
             height: 6svh;
+            font-size: 20px;
         }
     }
 }
@@ -118,9 +119,6 @@
     }
 
     .courses {
-        /* display: grid !important;
-        grid-template-columns: 1fr 1fr 1fr 1fr; */
-
         .course {
             margin-top: 50px;
             border: 0px;
@@ -130,10 +128,8 @@
             }
         }
 
-        .course-th img {
-            width: 100%;
-            height: 26svh;
-            background-position: center;
+        .course img {
+            height: 40svh;
         }
     }
 }
