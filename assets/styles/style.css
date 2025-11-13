@@ -427,13 +427,6 @@
 }
 
 @media screen and (max-width: 320px) {
-    .one {
-        height: 50svh;
-
-        .overlay {
-            height: 50svh !important;
-        }
-
         .top {
             .links {
                 display: grid;
@@ -451,10 +444,10 @@
         }
 
         .content {
+            margin-top: -80px;
             h1 {
                 margin-top: 0;
                 font-size: 28px !important;
-                margin-bottom: 40px;
             }
 
             p {
