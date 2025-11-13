@@ -204,6 +204,83 @@
     }
 }
 
+.seven {
+    margin-top: 100px;
+
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #EB4E89;
+        height: 500px;
+    }
+
+    h1 {
+        color: #fafafa;
+        margin-top: 150px;
+    }
+
+    input {
+        height: 35%;
+        background-color: #fafafa;
+    }
+
+
+    .inputs {
+        margin-top: -80px;
+    }
+
+    button {
+        height: 35%;
+        color: #fafafa;
+        background-color: #3C89D2;
+    }
+
+}
+
+.eight {
+    background-color: #3C89D2;
+
+    .contact-us {
+        min-height: 500px;
+        color: #fafafa;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .social {
+        margin-top: 100px;
+
+        p {
+            margin-top: 30px;
+        }
+
+        .svgs {
+            margin-top: 10px;
+
+            svg {
+                margin-right: 5px;
+            }
+        }
+    }
+
+    .quick {
+        margin-top: 100px;
+
+        h2 {
+            margin-bottom: 40px;
+        }
+    }
+
+    .course {
+        margin-top: 100px;
+
+        h2 {
+            margin-bottom: 40px;
+        }
+    }
+
+
+}
 
 /* ---------- */
 @media screen and (max-width: 1440px) {
@@ -373,6 +450,21 @@
             grid-template-columns: 1fr 1fr;
         }
     }
+
+    .seven {
+        h1 {
+            width: 70% !important;
+            margin-bottom: 0px;
+        }
+    }
+
+    .eight {
+        .social {
+            p {
+                width: 100%;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -514,6 +606,54 @@
         .articles {
             display: grid;
             grid-template-columns: 1fr;
+        }
+    }
+
+    .seven {
+        .inputs {
+            display: grid;
+            grid-template-columns: 1fr;
+
+            input {
+                width: 100% !important;
+                height: 60%;
+            }
+
+            button {
+                width: 80%;
+                height: 60%;
+                margin-inline: auto !important;
+                margin-top: -30px !important;
+            }
+        }
+    }
+
+    .eight {
+        .contact-us {
+            display: grid;
+            grid-template-columns: 2fr;
+
+            .social {
+                h2 {
+                    text-align: center;
+                }
+            }
+
+            .quick {
+                margin-top: 0;
+
+                h2 {
+                    text-align: center;
+                }
+            }
+
+            .course {
+                margin-top: 0;
+
+                h2 {
+                    text-align: center;
+                }
+            }
         }
     }
 }
