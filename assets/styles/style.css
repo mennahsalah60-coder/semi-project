@@ -68,7 +68,7 @@
     .image {
         background-color: #EB4E89;
         border-radius: 50% 50% 20% 20% !important;
-        height: 70svh;
+        /* min-height: 70px; */
 
 
         img {
@@ -79,7 +79,7 @@
 
     .missions {
         .mission {
-            height: 30svh;
+            /* min-height: 100px; */
 
             .our {
                 font-size: 60px;
@@ -154,6 +154,10 @@
     }
 
     .two {
+        /* .achives{
+            margin-top: 50px;
+        } */
+
         .image {
             height: 40svh;
 
@@ -162,9 +166,9 @@
             }
         }
 
-        .achives {
+        /* .achives {
             margin-top: -100px !important;
-        }
+        } */
     }
 
     .three {
@@ -203,7 +207,7 @@
         }
 
         .image {
-            height: 30svh !important;
+            height: 30svh ;
 
             img {
                 margin-top: 110px !important;
@@ -227,7 +231,7 @@
             }
 
             .achives {
-                margin-top: -150px !important;
+                /* margin-top: -150px !important; */
 
                 .achive {
                     h1 {
@@ -285,7 +289,7 @@
     .but button {
         font-size: 30px !important;
         width: 40% !important;
-        height: 5svh !important;
+        /* min-height: 10px !important; */
     }
 
     .four {
@@ -294,16 +298,16 @@
             grid-template-columns: 1fr 1fr;
 
             .course {
-                height: 21svh !important;
+                min-height: 21px !important;
                 width: 100%;
 
                 img {
-                    height: 15svh !important;
-                    margin-bottom: 15px;
+                    /* min-height: 15px !important; */
+                    margin-bottom: 10px;
                 }
 
                 a {
-                    font-size: 20px !important;
+                    font-size: 28px !important;
                 }
             }
         }
@@ -371,7 +375,6 @@
 
 
             .mission {
-                height: 30svh;
 
                 h1 {
                     font-size: 40px !important;
@@ -457,16 +460,16 @@
             button {
                 margin: 0;
                 font-size: 20px !important;
-                height: 3svh !important; 
+                max-height: 40px !important; 
             }
         }
-    }
+
 
     .two .all {
         margin-inline: auto;
         .mission {
             width: 90%;
-            height: 25svh;
+            /* height: 25svh; */
             margin-bottom: 40px;
         }
 
