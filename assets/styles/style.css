@@ -325,13 +325,17 @@
             display: none;
         }
 
+        .top{
+            margin-inline: auto;
+        }
+
         .top .links {
             margin-inline: auto;
         }
 
         .top .main {
-            margin-top: 20px;
-            margin-left: 90px;
+            margin-top: 10px;
+            margin-left: 22%;
 
             a {
                 font-size: 30px;
@@ -445,9 +449,8 @@
             }
         }
 
-        .top .main{
-            margin-left: 40px !important;
-            margin-top: 0;
+        .top .main a{
+            margin-left: 10px !important;
         }
 
         .content {
