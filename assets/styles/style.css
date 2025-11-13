@@ -97,6 +97,16 @@
     .offers .offer {
         border: 1px solid #fafafa;
         background-color: #f9f3f3;
+
+        h3 {
+            margin-top: 20px;
+        }
+
+        p {
+            margin-top: 10px;
+            width: 60%;
+            margin-inline: auto;
+        }
     }
 
     .but {
@@ -153,6 +163,42 @@
 
             p {
                 width: 149%;
+            }
+        }
+    }
+}
+
+.six {
+    margin-top: 100px;
+
+    h1 {
+        color: #3C89D2;
+    }
+
+    .articles {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        .article {
+            background-color: #f9f9f9;
+
+            h5 {
+                color: #3C89D2;
+                width: 40%;
+                margin-inline: auto;
+            }
+
+            p {
+                width: 50%;
+                margin-inline: auto;
+            }
+
+            button {
+                background-color: #EB4E89;
+                color: #fafafa;
+                width: 45%;
+                margin-inline: auto;
             }
         }
     }
@@ -320,6 +366,13 @@
             }
         }
     }
+
+    .six {
+        .articles {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -454,6 +507,13 @@
             .start {
                 margin-right: 40px !important;
             }
+        }
+    }
+
+    .six {
+        .articles {
+            display: grid;
+            grid-template-columns: 1fr;
         }
     }
 }
