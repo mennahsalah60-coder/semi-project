@@ -99,7 +99,7 @@
     .offers .offer {
         border: 1px solid #fafafa;
         background-color: #f9f3f3;
-        height: 20svh;
+        height: 30svh;
     }
 
     .but {
@@ -245,13 +245,6 @@
 }
 
 @media (max-width: 768px) {
-    .one {
-        height: 60svh;
-
-        .overlay {
-            height: 60svh !important;
-        }
-
         .top .button{
             margin-inline: auto;
         }
@@ -259,7 +252,6 @@
         .content button{
             font-size: 20px;
         }
-    }
 
     .two .all {
         width: 100%;
@@ -320,7 +312,6 @@
 }
 
 @media screen and (max-width: 450px) {
-
     .one {
         .button button {
             display: none;
