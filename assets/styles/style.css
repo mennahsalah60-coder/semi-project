@@ -106,7 +106,7 @@
     .but {
         button {
             background-color: #EB4E89;
-            height: 6svh;
+            /* height: 6svh; */
             font-size: 20px;
         }
     }
@@ -392,8 +392,6 @@
                     font-size: 40px !important;
                 }
             }
-
-
 
         }
     }
