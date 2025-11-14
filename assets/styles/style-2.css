@@ -50,6 +50,52 @@
     }
 }
 
+.four {
+    margin-top: 100px;
+    background-color: #3C89D2;
+
+    .contact-us {
+        min-height: 500px;
+        color: #fafafa;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .social {
+        margin-top: 100px;
+
+        p {
+            margin-top: 30px;
+        }
+
+        .svgs {
+            margin-top: 10px;
+
+            svg {
+                margin-right: 5px;
+            }
+        }
+    }
+
+    .quick {
+        margin-top: 100px;
+
+        h2 {
+            margin-bottom: 40px;
+        }
+    }
+
+    .course {
+        margin-top: 100px;
+
+        h2 {
+            margin-bottom: 40px;
+        }
+    }
+
+
+}
+
 /* ---media-guery--- */
 @media (max-width: 768px) {
     .one {
@@ -67,6 +113,14 @@
                 margin: 0 !important;
                 display: grid;
                 grid-template-columns: 1fr;
+            }
+        }
+    }
+
+    .four {
+        .social {
+            p {
+                width: 100%;
             }
         }
     }
@@ -104,6 +158,35 @@
 
                 p {
                     margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+    .four {
+        .contact-us {
+            display: grid;
+            grid-template-columns: 2fr;
+
+            .social {
+                h2 {
+                    text-align: center;
+                }
+            }
+
+            .quick {
+                margin-top: 0;
+
+                h2 {
+                    text-align: center;
+                }
+            }
+
+            .course {
+                margin-top: 0;
+
+                h2 {
+                    text-align: center;
                 }
             }
         }
