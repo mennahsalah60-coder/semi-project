@@ -10,12 +10,12 @@
     background-color: rgba(0, 0, 0, 0.8);
 
     button {
-        background-color: #FF3C8A;
+        background-color: #3C89D2;
     }
 }
 
 .two {
-    background-color: #FF3C8A;
+    background-color: #3C89D2;
     height: 300px;
 
     .content {
@@ -23,6 +23,7 @@
         h1 {
             padding-top: 100px;
             font-size: 60px;
+            color: aliceblue;
         }
     }
 }
