@@ -75,6 +75,7 @@
 @media screen and (max-width: 450px) {
     .one {
         height: 130px;
+
         .top .main {
             margin-top: 10px;
             margin-left: 22%;
@@ -86,21 +87,22 @@
         }
     }
 
-    .three{
-        .courses{
+    .three {
+        .courses {
             display: grid;
             grid-template-columns: 1fr;
-            
-            .course{
-                div{
+
+            .course {
+                div {
                     margin-left: 10px;
                 }
-                img{
+
+                img {
                     margin-left: 50px !important;
                     margin-top: 20px;
                 }
 
-                p{
+                p {
                     margin-bottom: 20px;
                 }
             }
@@ -109,12 +111,35 @@
 }
 
 @media screen and (max-width: 380px) {
-    .one{
+    .one {
         height: 200px;
-        .top .links{
+
+        .top .links {
             display: grid !important;
             grid-template-columns: 1fr 1fr 1fr;
         }
     }
-    
+
+}
+
+@media screen and (max-width: 320px) {
+    .one {
+        .top {
+            .links {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                margin-inline: auto;
+            }
+
+            .main {
+                margin-left: auto;
+                margin-right: auto;
+
+                a{
+                    font-size: 35px !important;
+                }
+            }
+        }
+    }
+
 }
