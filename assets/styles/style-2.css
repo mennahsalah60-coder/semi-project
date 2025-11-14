@@ -40,9 +40,9 @@
         .course {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            background-color: #faf3f6;
+            background-color: #e6eff8;
 
-            h3 {
+            a {
                 color: #3C89D2;
             }
         }
@@ -113,6 +113,10 @@
                 margin: 0 !important;
                 display: grid;
                 grid-template-columns: 1fr;
+
+                div{
+                    margin-left: 20px;
+                }
             }
         }
     }
@@ -149,6 +153,7 @@
             .course {
                 div {
                     margin-left: 10px;
+                    
                 }
 
                 img {
