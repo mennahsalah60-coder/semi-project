@@ -25,6 +25,14 @@
             font-size: 60px;
             color: aliceblue;
         }
+
+        div {
+
+            display: flex;
+            gap: 5px;
+            margin-left: 50%;
+        }
+
     }
 }
 
@@ -92,11 +100,95 @@
             margin-bottom: 40px;
         }
     }
-
-
 }
 
+/* index-3 */
+.science {
+    margin-top: 150px;
+
+    .detail {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+
+        .about {
+
+            .rate {
+                display: flex;
+            }
+
+            .times {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                border-bottom: 1px solid rgb(174, 172, 172);
+
+                .time {
+                    display: flex;
+
+
+                }
+            }
+        }
+
+        .purble {
+            background-color: #3C89D2;
+        }
+
+        .grey {
+            background-color: #F2F2F2;
+        }
+
+        .price {
+            height: 55%;
+            background-color: #e6eff8;
+            .free {
+                display: grid;
+                grid-template-columns: 2fr 1fr;
+            }
+
+            button {
+                background-color: #3C89D2;
+                margin-left: 60px !important;
+            }
+
+            .dit {
+                display: grid;
+                grid-template-columns: 4fr 2fr;
+            }
+
+        }
+    }
+}
+
+
+
+
+
+
+
 /* ---media-guery--- */
+@media screen and (max-width: 1024px) {
+    .science{
+        .detail{
+            display: grid;
+            grid-template-columns: 1fr;
+
+            .price{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                background-color: white;
+
+                img{
+                    height: 90%;
+                    margin-top: 15px;
+                }
+
+                button{
+                    margin-left: 60px !important;
+                }
+            }
+        }
+    }
+}
 @media (max-width: 768px) {
     .one {
         height: 100px;
@@ -106,15 +198,22 @@
         }
     }
 
+    .two{
+        .content{
+            div{
+                margin-left:38%;
+            }
+        }
+    }
+
     .three {
         .courses {
-
             .course {
                 margin: 0 !important;
                 display: grid;
                 grid-template-columns: 1fr;
 
-                div{
+                div {
                     margin-left: 20px;
                 }
             }
@@ -128,6 +227,7 @@
             }
         }
     }
+
 }
 
 @media screen and (max-width: 450px) {
@@ -145,6 +245,14 @@
         }
     }
 
+    .two{
+        .content{
+            div{
+                margin-left: 29%;
+            }
+        }
+    }
+
     .three {
         .courses {
             display: grid;
@@ -153,7 +261,7 @@
             .course {
                 div {
                     margin-left: 10px;
-                    
+
                 }
 
                 img {
@@ -196,6 +304,18 @@
             }
         }
     }
+
+    .science{
+        .detail{
+            .price{
+                display: grid !important;
+                grid-template-columns: 1fr;
+                .dit{
+                    display: none;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 380px) {
@@ -205,6 +325,28 @@
         .top .links {
             display: grid !important;
             grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+
+    .science{
+        .detail{
+            .about{
+                .times{
+                    display: grid;
+                    grid-template-columns: 1fr;
+                }
+
+                .buttons{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                }
+            }
+
+            .price{
+                button{
+                    margin-left: 50px !important;
+                }
+            }
         }
     }
 
@@ -223,8 +365,18 @@
                 margin-left: auto;
                 margin-right: auto;
 
-                a{
+                a {
                     font-size: 35px !important;
+                }
+            }
+        }
+    }
+
+    .science{
+        .detail{
+            .price{
+                button{
+                    margin-left: 40px !important;
                 }
             }
         }
