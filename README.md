@@ -1,44 +1,46 @@
-"# semi-project" 
-
+"# my-first-semi-project" 
 ---
-
 🎓 SmartAcademy – Kids Education Kindergarten
 
-📍 About the Project
-
-This is my first Front-End semi-project, created using HTML, CSS, and Bootstrap.
-It’s based on a Figma design and focuses on layout structure and style only — no JavaScript functionality or responsiveness.
-
-
----
-
-🛠 Technologies Used
-
-HTML5
-
-CSS3
-
-Bootstrap 5
-
-
+## Overview  
+Smart Academy is a simple educational website built using **HTML and CSS only**.  
+The project focuses on delivering a calm, human-centered visual experience suitable for children and parents.  
+It consists of static pages without JavaScript, making it ideal for practicing front-end fundamentals.
 
 ---
 
-📁 Project Structure
-
-SmartAcademy/
-│
-├── index.html
-├── css/
-│   └── style.css
-├── bootstrap/
-│   └── bootstrap.min.css
-└── images/
-
+## Technologies Used  
+- **HTML5** for structure  
+- **CSS3** for styling  
+- **GitHub Pages** for deployment
 
 ---
+
+## Project Highlights  
+- Clean and simple layout  
+- Multiple static pages linked through HTML  
+- Soft colors suitable for children  
+- Organized sections: Home, About, Courses, Blog  
+- Works on different screen sizes
+
+---
+
+## Important Notes  
+Since the project uses only HTML and CSS:  
+- **All navigation links work correctly**  
+- **Buttons are not functional** because JavaScript or backend logic is required  
+
+---
+
+## Project Structure
 
 🎯 Purpose
 
 To practice page structuring, styling, and Bootstrap components as part of my early Front-End learning journey.
+---
+## Future Improvements  
+- Add JavaScript functionality
 
+---
+## Link
+[https://mennahsalah60-coder.github.io/semi-project/]
