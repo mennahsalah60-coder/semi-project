@@ -1,46 +1,32 @@
 "# my-first-semi-project" 
 ---
-🎓 SmartAcademy – Kids Education Kindergarten
+# Smart Academy – Kids
 
-## Overview  
-Smart Academy is a simple educational website built using **HTML and CSS only**.  
-The project focuses on delivering a calm, human-centered visual experience suitable for children and parents.  
-It consists of static pages without JavaScript, making it ideal for practicing front-end fundamentals.
+Project Description:
+  This is a Front-End interface developed as part of the Semi Project in the EraaSoft Diploma. The project aims to create an educational platform for children with a simple and clear interface, organized layout,   using HTML, CSS, and Bootstrap only.
 
----
+Why did I choose this project?
+  I chose a kids-focused project because it connects what I’m learning in Front-End development with my studies in Early Childhood Education.
 
-## Technologies Used  
-- **HTML5** for structure  
-- **CSS3** for styling  
-- **GitHub Pages** for deployment
+What I focused on in this project:
 
----
+  Creating an interface designed for children's education
 
-## Project Highlights  
-- Clean and simple layout  
-- Multiple static pages linked through HTML  
-- Soft colors suitable for children  
-- Organized sections: Home, About, Courses, Blog  
-- Works on different screen sizes
+  Writing clean and organized code
 
----
+  Designing a responsive layout across all devices
 
-## Important Notes  
-Since the project uses only HTML and CSS:  
-- **All navigation links work correctly**  
-- **Buttons are not functional** because JavaScript or backend logic is required  
+  Fully meeting all Semi Project requirements
 
----
 
-## Project Structure
+Technologies Used:
 
-🎯 Purpose
+  HTML5
 
-To practice page structuring, styling, and Bootstrap components as part of my early Front-End learning journey.
----
-## Future Improvements  
-- Add JavaScript functionality
+  CSS3
 
----
-## Link
-[https://mennahsalah60-coder.github.io/semi-project/]
+  Bootstrap
+
+
+Live Demo:
+[Smart Academy – Kids](https://mennahsalah60-coder.github.io/semi-project/)
