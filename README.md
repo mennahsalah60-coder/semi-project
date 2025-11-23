@@ -29,4 +29,4 @@ Technologies Used:
 
 
 Live Demo:
-[Smart Academy – Kids](https://mennahsalah60-coder.github.io/semi-project/)
+[Smart Academy – Kids](https://mennahsalah60-coder.github.io/SmartAcademy-ForKids/)
